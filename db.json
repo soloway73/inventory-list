@@ -1,309 +1,333 @@
 {
-    "cities": [
-      {
-        "id": 1,
-        "name": "Москва",
-        "locations": [
-          {
-            "id": 1,
-            "name": "Пункт выдачи на Тверской",
-            "address": "ул. Тверская, д. 10",
-            "coordinates": { "lat": 55.7618, "lng": 37.6189 }
-          },
-          {
-            "id": 2,
-            "name": "Пункт выдачи на Кутузовском",
-            "address": "Кутузовский проспект, д. 20",
-            "coordinates": { "lat": 55.7459, "lng": 37.5826 }
+  "cities": [
+    {
+      "id": 1,
+      "name": "Москва",
+      "locations": [
+        {
+          "id": 1,
+          "name": "Пункт выдачи на Тверской",
+          "address": "ул. Тверская, д. 10",
+          "coordinates": {
+            "lat": 55.7618,
+            "lng": 37.6189
           }
-        ]
-      },
-      {
-        "id": 2,
-        "name": "Санкт-Петербург",
-        "locations": [
-          {
-            "id": 3,
-            "name": "Пункт выдачи на Невском",
-            "address": "Невский проспект, д. 50",
-            "coordinates": { "lat": 59.9343, "lng": 30.3351 }
-          },
-          {
-            "id": 4,
-            "name": "Пункт выдачи на Васильевском",
-            "address": "Васильевский остров, д. 15",
-            "coordinates": { "lat": 59.9283, "lng": 30.2956 }
+        },
+        {
+          "id": 2,
+          "name": "Пункт выдачи на Кутузовском",
+          "address": "Кутузовский проспект, д. 20",
+          "coordinates": {
+            "lat": 55.7459,
+            "lng": 37.5826
           }
-        ]
-      },
-      {
-        "id": 3,
-        "name": "Казань",
-        "locations": [
-          {
-            "id": 5,
-            "name": "Пункт выдачи на Баумана",
-            "address": "ул. Баумана, д. 30",
-            "coordinates": { "lat": 55.7961, "lng": 49.1064 }
-          },
-          {
-            "id": 6,
-            "name": "Пункт выдачи на Кремлёвской",
-            "address": "Кремлёвская улица, д. 12",
-            "coordinates": { "lat": 55.7986, "lng": 49.1231 }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Санкт-Петербург",
+      "locations": [
+        {
+          "id": 3,
+          "name": "Пункт выдачи на Невском",
+          "address": "Невский проспект, д. 50",
+          "coordinates": {
+            "lat": 59.9343,
+            "lng": 30.3351
           }
-        ]
-      },
-      {
-        "id": 4,
-        "name": "Екатеринбург",
-        "locations": [
-          {
-            "id": 7,
-            "name": "Пункт выдачи на Ленина",
-            "address": "ул. Ленина, д. 5",
-            "coordinates": { "lat": 56.838, "lng": 60.5975 }
-          },
-          {
-            "id": 8,
-            "name": "Пункт выдачи на Малышева",
-            "address": "ул. Малышева, д. 40",
-            "coordinates": { "lat": 56.8373, "lng": 60.6031 }
+        },
+        {
+          "id": 4,
+          "name": "Пункт выдачи на Васильевском",
+          "address": "Васильевский остров, д. 15",
+          "coordinates": {
+            "lat": 59.9283,
+            "lng": 30.2956
           }
-        ]
-      }
-    ],
-    "cars": [
-      {
-        "id": 1,
-        "model": "Toyota Camry",
-        "year": 2022,
-        "color": "Чёрный",
-        "pricePerDay": 2500,
-        "available": true,
-        "cityId": 1,
-        "locationId": 1,
-        "imageURL": "car1.webp"
-      },
-      {
-        "id": 2,
-        "model": "Honda Civic",
-        "year": 2020,
-        "color": "Белый",
-        "pricePerDay": 2200,
-        "available": true,
-        "cityId": 1,
-        "locationId": 1,
-        "imageURL": "car2.webp"
-      },
-      {
-        "id": 3,
-        "model": "Mazda 3",
-        "year": 2021,
-        "color": "Синий",
-        "pricePerDay": 2300,
-        "available": false,
-        "cityId": 1,
-        "locationId": 1,
-        "imageURL": "car3.webp"
-      },
-      {
-        "id": 4,
-        "model": "Ford Mondeo",
-        "year": 2019,
-        "color": "Серый",
-        "pricePerDay": 2100,
-        "available": true,
-        "cityId": 1,
-        "locationId": 1,
-        "imageURL": "car4.webp"
-      },
-      {
-        "id": 5,
-        "model": "Hyundai Tucson",
-        "year": 2021,
-        "color": "Белый",
-        "pricePerDay": 3000,
-        "available": false,
-        "cityId": 1,
-        "locationId": 2,
-        "imageURL": "car1.webp"
-      },
-      {
-        "id": 6,
-        "model": "Renault Kaptur",
-        "year": 2020,
-        "color": "Оранжевый",
-        "pricePerDay": 2700,
-        "available": true,
-        "cityId": 1,
-        "locationId": 2,
-        "imageURL": "car2.webp"
-      },
-      {
-        "id": 7,
-        "model": "Skoda Rapid",
-        "year": 2019,
-        "color": "Серебристый",
-        "pricePerDay": 2000,
-        "available": true,
-        "cityId": 1,
-        "locationId": 2,
-        "imageURL": "car3.webp"
-      },
-      {
-        "id": 8,
-        "model": "Lada Granta",
-        "year": 2021,
-        "color": "Синий",
-        "pricePerDay": 1500,
-        "available": true,
-        "cityId": 1,
-        "locationId": 2,
-        "imageURL": "car4.webp"
-      },
-      {
-        "id": 9,
-        "model": "Kia Rio",
-        "year": 2020,
-        "color": "Синий",
-        "pricePerDay": 2000,
-        "available": true,
-        "cityId": 2,
-        "locationId": 3,
-        "imageURL": "car1.webp"
-      },
-      {
-        "id": 10,
-        "model": "Volkswagen Polo",
-        "year": 2019,
-        "color": "Красный",
-        "pricePerDay": 1800,
-        "available": true,
-        "cityId": 2,
-        "locationId": 3,
-        "imageURL": "car2.webp"
-      },
-      {
-        "id": 11,
-        "model": "Nissan Qashqai",
-        "year": 2021,
-        "color": "Серебристый",
-        "pricePerDay": 3200,
-        "available": true,
-        "cityId": 2,
-        "locationId": 3,
-        "imageURL": "car3.webp"
-      },
-      {
-        "id": 12,
-        "model": "Renault Duster",
-        "year": 2020,
-        "color": "Зелёный",
-        "pricePerDay": 2800,
-        "available": false,
-        "cityId": 2,
-        "locationId": 3,
-        "imageURL": "car4.webp"
-      },
-      {
-        "id": 13,
-        "model": "Ford Focus",
-        "year": 2018,
-        "color": "Белый",
-        "pricePerDay": 1500,
-        "available": true,
-        "cityId": 2,
-        "locationId": 4,
-        "imageURL": "car1.webp"
-      },
-      {
-        "id": 14,
-        "model": "Lada Vesta",
-        "year": 2020,
-        "color": "Красный",
-        "pricePerDay": 1200,
-        "available": true,
-        "cityId": 2,
-        "locationId": 4,
-        "imageURL": "car2.webp"
-      },
-      {
-        "id": 15,
-        "model": "Toyota Corolla",
-        "year": 2021,
-        "color": "Серебристый",
-        "pricePerDay": 2400,
-        "available": true,
-        "cityId": 2,
-        "locationId": 4,
-        "imageURL": "car3.webp"
-      },
-      {
-        "id": 16,
-        "model": "Hyundai Solaris",
-        "year": 2020,
-        "color": "Белый",
-        "pricePerDay": 2100,
-        "available": true,
-        "cityId": 2,
-        "locationId": 4,
-        "imageURL": "car4.webp"
-      },
-      {
-        "id": 17,
-        "model": "Volkswagen Polo",
-        "year": 2019,
-        "color": "Красный",
-        "pricePerDay": 1800,
-        "available": true,
-        "cityId": 3,
-        "locationId": 5,
-        "imageURL": "car1.webp"
-      },
-      {
-        "id": 18,
-        "model": "Nissan Qashqai",
-        "year": 2021,
-        "color": "Серебристый",
-        "pricePerDay": 3200,
-        "available": true,
-        "cityId": 3,
-        "locationId": 5,
-        "imageURL": "car2.webp"
-      },
-      {
-        "id": 19,
-        "model": "Renault Duster",
-        "year": 2020,
-        "color": "Зелёный",
-        "pricePerDay": 2800,
-        "available": false,
-        "cityId": 3,
-        "locationId": 5,
-        "imageURL": "car3.webp"
-      },
-      {
-        "id": 20,
-        "model": "Skoda Octavia",
-        "year": 2022,
-        "color": "Серый",
-        "pricePerDay": 2600,
-        "available": true,
-        "cityId": 3,
-        "locationId": 5,
-        "imageURL": "car4.webp"
-      },
-      {
-        "id": 21,
-        "model": "Toyota Corolla",
-        "year": 2021,
-        "color": "Серебристый",
-        "pricePerDay": 2400,
-        "available": true,
-        "cityId": 3,
-        "locationId": 6,
-        "imageURL": "car1.webp"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Казань",
+      "locations": [
+        {
+          "id": 5,
+          "name": "Пункт выдачи на Баумана",
+          "address": "ул. Баумана, д. 30",
+          "coordinates": {
+            "lat": 55.7961,
+            "lng": 49.1064
+          }
+        },
+        {
+          "id": 6,
+          "name": "Пункт выдачи на Кремлёвской",
+          "address": "Кремлёвская улица, д. 12",
+          "coordinates": {
+            "lat": 55.7986,
+            "lng": 49.1231
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Екатеринбург",
+      "locations": [
+        {
+          "id": 7,
+          "name": "Пункт выдачи на Ленина",
+          "address": "ул. Ленина, д. 5",
+          "coordinates": {
+            "lat": 56.838,
+            "lng": 60.5975
+          }
+        },
+        {
+          "id": 8,
+          "name": "Пункт выдачи на Малышева",
+          "address": "ул. Малышева, д. 40",
+          "coordinates": {
+            "lat": 56.8373,
+            "lng": 60.6031
+          }
+        }
+      ]
+    }
+  ],
+  "cars": [
+    {
+      "id": 1,
+      "model": "Toyota Camry",
+      "year": 2022,
+      "color": "Чёрный",
+      "pricePerDay": 2500,
+      "available": true,
+      "cityId": 1,
+      "locationId": 1,
+      "imageURL": "car1.png"
+    },
+    {
+      "id": 2,
+      "model": "Honda Civic",
+      "year": 2020,
+      "color": "Белый",
+      "pricePerDay": 2200,
+      "available": true,
+      "cityId": 1,
+      "locationId": 1,
+      "imageURL": "car2.png"
+    },
+    {
+      "id": 3,
+      "model": "Mazda 3",
+      "year": 2021,
+      "color": "Синий",
+      "pricePerDay": 2300,
+      "available": false,
+      "cityId": 1,
+      "locationId": 1,
+      "imageURL": "car3.png"
+    },
+    {
+      "id": 4,
+      "model": "Ford Mondeo",
+      "year": 2019,
+      "color": "Серый",
+      "pricePerDay": 2100,
+      "available": true,
+      "cityId": 1,
+      "locationId": 1,
+      "imageURL": "car4.png"
+    },
+    {
+      "id": 5,
+      "model": "Hyundai Tucson",
+      "year": 2021,
+      "color": "Белый",
+      "pricePerDay": 3000,
+      "available": false,
+      "cityId": 1,
+      "locationId": 2,
+      "imageURL": "car1.png"
+    },
+    {
+      "id": 6,
+      "model": "Renault Kaptur",
+      "year": 2020,
+      "color": "Оранжевый",
+      "pricePerDay": 2700,
+      "available": true,
+      "cityId": 1,
+      "locationId": 2,
+      "imageURL": "car2.png"
+    },
+    {
+      "id": 7,
+      "model": "Skoda Rapid",
+      "year": 2019,
+      "color": "Серебристый",
+      "pricePerDay": 2000,
+      "available": true,
+      "cityId": 1,
+      "locationId": 2,
+      "imageURL": "car3.png"
+    },
+    {
+      "id": 8,
+      "model": "Lada Granta",
+      "year": 2021,
+      "color": "Синий",
+      "pricePerDay": 1500,
+      "available": true,
+      "cityId": 1,
+      "locationId": 2,
+      "imageURL": "car4.png"
+    },
+    {
+      "id": 9,
+      "model": "Kia Rio",
+      "year": 2020,
+      "color": "Синий",
+      "pricePerDay": 2000,
+      "available": true,
+      "cityId": 2,
+      "locationId": 3,
+      "imageURL": "car1.png"
+    },
+    {
+      "id": 10,
+      "model": "Volkswagen Polo",
+      "year": 2019,
+      "color": "Красный",
+      "pricePerDay": 1800,
+      "available": true,
+      "cityId": 2,
+      "locationId": 3,
+      "imageURL": "car2.png"
+    },
+    {
+      "id": 11,
+      "model": "Nissan Qashqai",
+      "year": 2021,
+      "color": "Серебристый",
+      "pricePerDay": 3200,
+      "available": true,
+      "cityId": 2,
+      "locationId": 3,
+      "imageURL": "car3.png"
+    },
+    {
+      "id": 12,
+      "model": "Renault Duster",
+      "year": 2020,
+      "color": "Зелёный",
+      "pricePerDay": 2800,
+      "available": false,
+      "cityId": 2,
+      "locationId": 3,
+      "imageURL": "car4.png"
+    },
+    {
+      "id": 13,
+      "model": "Ford Focus",
+      "year": 2018,
+      "color": "Белый",
+      "pricePerDay": 1500,
+      "available": true,
+      "cityId": 2,
+      "locationId": 4,
+      "imageURL": "car1.png"
+    },
+    {
+      "id": 14,
+      "model": "Lada Vesta",
+      "year": 2020,
+      "color": "Красный",
+      "pricePerDay": 1200,
+      "available": true,
+      "cityId": 2,
+      "locationId": 4,
+      "imageURL": "car2.png"
+    },
+    {
+      "id": 15,
+      "model": "Toyota Corolla",
+      "year": 2021,
+      "color": "Серебристый",
+      "pricePerDay": 2400,
+      "available": true,
+      "cityId": 2,
+      "locationId": 4,
+      "imageURL": "car3.png"
+    },
+    {
+      "id": 16,
+      "model": "Hyundai Solaris",
+      "year": 2020,
+      "color": "Белый",
+      "pricePerDay": 2100,
+      "available": true,
+      "cityId": 2,
+      "locationId": 4,
+      "imageURL": "car4.png"
+    },
+    {
+      "id": 17,
+      "model": "Volkswagen Polo",
+      "year": 2019,
+      "color": "Красный",
+      "pricePerDay": 1800,
+      "available": true,
+      "cityId": 3,
+      "locationId": 5,
+      "imageURL": "car1.png"
+    },
+    {
+      "id": 18,
+      "model": "Nissan Qashqai",
+      "year": 2021,
+      "color": "Серебристый",
+      "pricePerDay": 3200,
+      "available": true,
+      "cityId": 3,
+      "locationId": 5,
+      "imageURL": "car2.png"
+    },
+    {
+      "id": 19,
+      "model": "Renault Duster",
+      "year": 2020,
+      "color": "Зелёный",
+      "pricePerDay": 2800,
+      "available": false,
+      "cityId": 3,
+      "locationId": 5,
+      "imageURL": "car3.png"
+    },
+    {
+      "id": 20,
+      "model": "Skoda Octavia",
+      "year": 2022,
+      "color": "Серый",
+      "pricePerDay": 2600,
+      "available": true,
+      "cityId": 3,
+      "locationId": 5,
+      "imageURL": "car4.png"
+    },
+    {
+      "id": 21,
+      "model": "Toyota Corolla",
+      "year": 2021,
+      "color": "Серебристый",
+      "pricePerDay": 2400,
+      "available": true,
+      "cityId": 3,
+      "locationId": 6,
+        "imageURL": "car1.png"
       },
       {
         "id": 22,
@@ -314,7 +338,7 @@
         "available": true,
         "cityId": 3,
         "locationId": 6,
-        "imageURL": "car2.webp"
+        "imageURL": "car2.png"
       },
       {
         "id": 23,
@@ -325,7 +349,7 @@
         "available": true,
         "cityId": 3,
         "locationId": 6,
-        "imageURL": "car3.webp"
+        "imageURL": "car3.png"
       },
       {
         "id": 24,
@@ -336,7 +360,7 @@
         "available": true,
         "cityId": 3,
         "locationId": 6,
-        "imageURL": "car4.webp"
+        "imageURL": "car4.png"
       },
       {
         "id": 25,
@@ -347,7 +371,7 @@
         "available": true,
         "cityId": 4,
         "locationId": 7,
-        "imageURL": "car1.webp"
+        "imageURL": "car1.png"
       },
       {
         "id": 26,
@@ -358,7 +382,7 @@
         "available": true,
         "cityId": 4,
         "locationId": 7,
-        "imageURL": "car2.webp"
+        "imageURL": "car2.png"
       },
       {
         "id": 27,
@@ -369,7 +393,7 @@
         "available": true,
         "cityId": 4,
         "locationId": 8,
-        "imageURL": "car1.webp"
+        "imageURL": "car1.png"
       },
       {
         "id": 28,
@@ -380,7 +404,7 @@
         "available": true,
         "cityId": 4,
         "locationId": 8,
-        "imageURL": "car2.webp"
+        "imageURL": "car2.png"
       }
     ]
   }
