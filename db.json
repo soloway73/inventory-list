@@ -107,7 +107,7 @@
       "available": true,
       "cityId": 1,
       "locationId": 1,
-      "imageURL": "car1.webp",
+      "imageURL": "car1.png",
       "trim": "premium"
     },
     {
@@ -119,7 +119,7 @@
       "available": true,
       "cityId": 1,
       "locationId": 1,
-      "imageURL": "car2.webp",
+      "imageURL": "car2.png",
       "trim": "eco"
     },
     {
@@ -131,7 +131,7 @@
       "available": false,
       "cityId": 1,
       "locationId": 1,
-      "imageURL": "car3.webp",
+      "imageURL": "car3.png",
       "trim": "premium"
     },
     {
@@ -143,7 +143,7 @@
       "available": true,
       "cityId": 1,
       "locationId": 1,
-      "imageURL": "car4.webp",
+      "imageURL": "car4.png",
       "trim": "eco"
     },
     {
@@ -155,7 +155,7 @@
       "available": false,
       "cityId": 1,
       "locationId": 2,
-      "imageURL": "car1.webp",
+      "imageURL": "car1.png",
       "trim": "premium"
     },
     {
@@ -167,7 +167,7 @@
       "available": true,
       "cityId": 1,
       "locationId": 2,
-      "imageURL": "car2.webp",
+      "imageURL": "car2.png",
       "trim": "eco"
     },
     {
@@ -179,7 +179,7 @@
       "available": true,
       "cityId": 1,
       "locationId": 2,
-      "imageURL": "car3.webp",
+      "imageURL": "car3.png",
       "trim": "premium"
     },
     {
@@ -191,7 +191,7 @@
       "available": true,
       "cityId": 1,
       "locationId": 2,
-      "imageURL": "car4.webp",
+      "imageURL": "car4.png",
       "trim": "eco"
     },
     {
@@ -203,7 +203,7 @@
       "available": true,
       "cityId": 2,
       "locationId": 3,
-      "imageURL": "car1.webp",
+      "imageURL": "car1.png",
       "trim": "premium"
     },
     {
@@ -215,7 +215,7 @@
       "available": true,
       "cityId": 2,
       "locationId": 3,
-      "imageURL": "car2.webp",
+      "imageURL": "car2.png",
       "trim": "eco"
     },
     {
@@ -227,7 +227,7 @@
       "available": true,
       "cityId": 2,
       "locationId": 3,
-      "imageURL": "car3.webp",
+      "imageURL": "car3.png",
       "trim": "premium"
     },
     {
@@ -239,7 +239,7 @@
       "available": false,
       "cityId": 2,
       "locationId": 3,
-      "imageURL": "car4.webp",
+      "imageURL": "car4.png",
       "trim": "eco"
     },
     {
@@ -251,7 +251,7 @@
       "available": true,
       "cityId": 2,
       "locationId": 4,
-      "imageURL": "car1.webp",
+      "imageURL": "car1.png",
       "trim": "premium"
     },
     {
@@ -263,7 +263,7 @@
       "available": true,
       "cityId": 2,
       "locationId": 4,
-      "imageURL": "car2.webp",
+      "imageURL": "car2.png",
       "trim": "eco"
     },
     {
@@ -275,7 +275,7 @@
       "available": true,
       "cityId": 2,
       "locationId": 4,
-      "imageURL": "car3.webp",
+      "imageURL": "car3.png",
       "trim": "premium"
     },
     {
@@ -287,7 +287,7 @@
       "available": true,
       "cityId": 2,
       "locationId": 4,
-      "imageURL": "car4.webp",
+      "imageURL": "car4.png",
       "trim": "eco"
     },
     {
@@ -299,7 +299,7 @@
       "available": true,
       "cityId": 3,
       "locationId": 5,
-      "imageURL": "car1.webp",
+      "imageURL": "car1.png",
       "trim": "premium"
     },
     {
@@ -311,7 +311,7 @@
       "available": true,
       "cityId": 3,
       "locationId": 5,
-      "imageURL": "car2.webp",
+      "imageURL": "car2.png",
       "trim": "eco"
     },
     {
@@ -323,7 +323,7 @@
       "available": false,
       "cityId": 3,
       "locationId": 5,
-      "imageURL": "car3.webp",
+      "imageURL": "car3.png",
       "trim": "premium"
     },
     {
@@ -335,7 +335,7 @@
       "available": true,
       "cityId": 3,
       "locationId": 5,
-      "imageURL": "car4.webp",
+      "imageURL": "car4.png",
       "trim": "eco"
     },
     {
@@ -347,7 +347,7 @@
       "available": true,
       "cityId": 3,
       "locationId": 6,
-      "imageURL": "car1.webp",
+      "imageURL": "car1.png",
       "trim": "premium"
     },
     {
@@ -359,7 +359,7 @@
       "available": true,
       "cityId": 3,
       "locationId": 6,
-      "imageURL": "car2.webp",
+      "imageURL": "car2.png",
       "trim": "eco"
     },
     {
@@ -371,7 +371,7 @@
       "available": true,
       "cityId": 3,
       "locationId": 6,
-      "imageURL": "car3.webp",
+      "imageURL": "car3.png",
       "trim": "premium"
     },
     {
@@ -383,7 +383,7 @@
       "available": true,
       "cityId": 3,
       "locationId": 6,
-      "imageURL": "car4.webp",
+      "imageURL": "car4.png",
       "trim": "eco"
     },
     {
@@ -395,7 +395,7 @@
       "available": true,
       "cityId": 4,
       "locationId": 7,
-      "imageURL": "car1.webp",
+      "imageURL": "car1.png",
       "trim": "premium"
     },
     {
@@ -407,7 +407,7 @@
       "available": true,
       "cityId": 4,
       "locationId": 7,
-      "imageURL": "car2.webp",
+      "imageURL": "car2.png",
       "trim": "eco"
     },
     {
@@ -419,7 +419,7 @@
       "available": true,
       "cityId": 4,
       "locationId": 8,
-      "imageURL": "car1.webp",
+      "imageURL": "car1.png",
       "trim": "premium"
     },
     {
@@ -431,7 +431,7 @@
       "available": true,
       "cityId": 4,
       "locationId": 8,
-      "imageURL": "car2.webp",
+      "imageURL": "car2.png",
       "trim": "eco"
     }
   ]
