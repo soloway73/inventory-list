@@ -375,18 +375,6 @@
       "trim": "premium"
     },
     {
-      "id": 24,
-      "model": "Kia Ceed",
-      "year": 2021,
-      "color": ["Синий", "Белый"],
-      "pricePerDay": 2500,
-      "available": true,
-      "cityId": 3,
-      "locationId": 6,
-      "imageURL": "car4.png",
-      "trim": "eco"
-    },
-    {
       "id": 25,
       "model": "Renault Logan",
       "year": 2020,
