@@ -363,18 +363,6 @@
       "trim": "eco"
     },
     {
-      "id": 23,
-      "model": "Volkswagen Jetta",
-      "year": 2019,
-      "color": ["Чёрный", "Серый"],
-      "pricePerDay": 2300,
-      "available": true,
-      "cityId": 3,
-      "locationId": 6,
-      "imageURL": "car3.png",
-      "trim": "premium"
-    },
-    {
       "id": 25,
       "model": "Renault Logan",
       "year": 2020,
