@@ -107,7 +107,8 @@
       "available": true,
       "cityId": 1,
       "locationId": 1,
-      "imageURL": "car1.png"
+      "imageURL": "car1.webp",
+      "trim": "premium"
     },
     {
       "id": 2,
@@ -118,7 +119,8 @@
       "available": true,
       "cityId": 1,
       "locationId": 1,
-      "imageURL": "car2.png"
+      "imageURL": "car2.webp",
+      "trim": "eco"
     },
     {
       "id": 3,
@@ -129,7 +131,8 @@
       "available": false,
       "cityId": 1,
       "locationId": 1,
-      "imageURL": "car3.png"
+      "imageURL": "car3.webp",
+      "trim": "premium"
     },
     {
       "id": 4,
@@ -140,7 +143,8 @@
       "available": true,
       "cityId": 1,
       "locationId": 1,
-      "imageURL": "car4.png"
+      "imageURL": "car4.webp",
+      "trim": "eco"
     },
     {
       "id": 5,
@@ -151,7 +155,8 @@
       "available": false,
       "cityId": 1,
       "locationId": 2,
-      "imageURL": "car1.png"
+      "imageURL": "car1.webp",
+      "trim": "premium"
     },
     {
       "id": 6,
@@ -162,7 +167,8 @@
       "available": true,
       "cityId": 1,
       "locationId": 2,
-      "imageURL": "car2.png"
+      "imageURL": "car2.webp",
+      "trim": "eco"
     },
     {
       "id": 7,
@@ -173,7 +179,8 @@
       "available": true,
       "cityId": 1,
       "locationId": 2,
-      "imageURL": "car3.png"
+      "imageURL": "car3.webp",
+      "trim": "premium"
     },
     {
       "id": 8,
@@ -184,7 +191,8 @@
       "available": true,
       "cityId": 1,
       "locationId": 2,
-      "imageURL": "car4.png"
+      "imageURL": "car4.webp",
+      "trim": "eco"
     },
     {
       "id": 9,
@@ -195,7 +203,8 @@
       "available": true,
       "cityId": 2,
       "locationId": 3,
-      "imageURL": "car1.png"
+      "imageURL": "car1.webp",
+      "trim": "premium"
     },
     {
       "id": 10,
@@ -206,7 +215,8 @@
       "available": true,
       "cityId": 2,
       "locationId": 3,
-      "imageURL": "car2.png"
+      "imageURL": "car2.webp",
+      "trim": "eco"
     },
     {
       "id": 11,
@@ -217,7 +227,8 @@
       "available": true,
       "cityId": 2,
       "locationId": 3,
-      "imageURL": "car3.png"
+      "imageURL": "car3.webp",
+      "trim": "premium"
     },
     {
       "id": 12,
@@ -228,7 +239,8 @@
       "available": false,
       "cityId": 2,
       "locationId": 3,
-      "imageURL": "car4.png"
+      "imageURL": "car4.webp",
+      "trim": "eco"
     },
     {
       "id": 13,
@@ -239,7 +251,8 @@
       "available": true,
       "cityId": 2,
       "locationId": 4,
-      "imageURL": "car1.png"
+      "imageURL": "car1.webp",
+      "trim": "premium"
     },
     {
       "id": 14,
@@ -250,7 +263,8 @@
       "available": true,
       "cityId": 2,
       "locationId": 4,
-      "imageURL": "car2.png"
+      "imageURL": "car2.webp",
+      "trim": "eco"
     },
     {
       "id": 15,
@@ -261,7 +275,8 @@
       "available": true,
       "cityId": 2,
       "locationId": 4,
-      "imageURL": "car3.png"
+      "imageURL": "car3.webp",
+      "trim": "premium"
     },
     {
       "id": 16,
@@ -272,7 +287,8 @@
       "available": true,
       "cityId": 2,
       "locationId": 4,
-      "imageURL": "car4.png"
+      "imageURL": "car4.webp",
+      "trim": "eco"
     },
     {
       "id": 17,
@@ -283,7 +299,8 @@
       "available": true,
       "cityId": 3,
       "locationId": 5,
-      "imageURL": "car1.png"
+      "imageURL": "car1.webp",
+      "trim": "premium"
     },
     {
       "id": 18,
@@ -294,7 +311,8 @@
       "available": true,
       "cityId": 3,
       "locationId": 5,
-      "imageURL": "car2.png"
+      "imageURL": "car2.webp",
+      "trim": "eco"
     },
     {
       "id": 19,
@@ -305,7 +323,8 @@
       "available": false,
       "cityId": 3,
       "locationId": 5,
-      "imageURL": "car3.png"
+      "imageURL": "car3.webp",
+      "trim": "premium"
     },
     {
       "id": 20,
@@ -316,7 +335,8 @@
       "available": true,
       "cityId": 3,
       "locationId": 5,
-      "imageURL": "car4.png"
+      "imageURL": "car4.webp",
+      "trim": "eco"
     },
     {
       "id": 21,
@@ -327,84 +347,92 @@
       "available": true,
       "cityId": 3,
       "locationId": 6,
-        "imageURL": "car1.png"
-      },
-      {
-        "id": 22,
-        "model": "Hyundai Solaris",
-        "year": 2020,
-        "color": "Белый",
-        "pricePerDay": 2100,
-        "available": true,
-        "cityId": 3,
-        "locationId": 6,
-        "imageURL": "car2.png"
-      },
-      {
-        "id": 23,
-        "model": "Volkswagen Jetta",
-        "year": 2019,
-        "color": "Чёрный",
-        "pricePerDay": 2300,
-        "available": true,
-        "cityId": 3,
-        "locationId": 6,
-        "imageURL": "car3.png"
-      },
-      {
-        "id": 24,
-        "model": "Kia Ceed",
-        "year": 2021,
-        "color": "Синий",
-        "pricePerDay": 2500,
-        "available": true,
-        "cityId": 3,
-        "locationId": 6,
-        "imageURL": "car4.png"
-      },
-      {
-        "id": 25,
-        "model": "Renault Logan",
-        "year": 2020,
-        "color": "Серый",
-        "pricePerDay": 1800,
-        "available": true,
-        "cityId": 4,
-        "locationId": 7,
-        "imageURL": "car1.png"
-      },
-      {
-        "id": 26,
-        "model": "Nissan Qashqai",
-        "year": 2021,
-        "color": "Серебристый",
-        "pricePerDay": 3200,
-        "available": true,
-        "cityId": 4,
-        "locationId": 7,
-        "imageURL": "car2.png"
-      },
-      {
-        "id": 27,
-        "model": "Skoda Octavia",
-        "year": 2022,
-        "color": "Серый",
-        "pricePerDay": 2600,
-        "available": true,
-        "cityId": 4,
-        "locationId": 8,
-        "imageURL": "car1.png"
-      },
-      {
-        "id": 28,
-        "model": "Toyota Corolla",
-        "year": 2021,
-        "color": "Серебристый",
-        "pricePerDay": 2400,
-        "available": true,
-        "cityId": 4,
-        "locationId": 8,
-        "imageURL": "car2.png"
-      }
-    ]
+      "imageURL": "car1.webp",
+      "trim": "premium"
+    },
+    {
+      "id": 22,
+      "model": "Hyundai Solaris",
+      "year": 2020,
+      "color": "Белый",
+      "pricePerDay": 2100,
+      "available": true,
+      "cityId": 3,
+      "locationId": 6,
+      "imageURL": "car2.webp",
+      "trim": "eco"
+    },
+    {
+      "id": 23,
+      "model": "Volkswagen Jetta",
+      "year": 2019,
+      "color": "Чёрный",
+      "pricePerDay": 2300,
+      "available": true,
+      "cityId": 3,
+      "locationId": 6,
+      "imageURL": "car3.webp",
+      "trim": "premium"
+    },
+    {
+      "id": 24,
+      "model": "Kia Ceed",
+      "year": 2021,
+      "color": "Синий",
+      "pricePerDay": 2500,
+      "available": true,
+      "cityId": 3,
+      "locationId": 6,
+      "imageURL": "car4.webp",
+      "trim": "eco"
+    },
+    {
+      "id": 25,
+      "model": "Renault Logan",
+      "year": 2020,
+      "color": "Серый",
+      "pricePerDay": 1800,
+      "available": true,
+      "cityId": 4,
+      "locationId": 7,
+      "imageURL": "car1.webp",
+      "trim": "premium"
+    },
+    {
+      "id": 26,
+      "model": "Nissan Qashqai",
+      "year": 2021,
+      "color": "Серебристый",
+      "pricePerDay": 3200,
+      "available": true,
+      "cityId": 4,
+      "locationId": 7,
+      "imageURL": "car2.webp",
+      "trim": "eco"
+    },
+    {
+      "id": 27,
+      "model": "Skoda Octavia",
+      "year": 2022,
+      "color": "Серый",
+      "pricePerDay": 2600,
+      "available": true,
+      "cityId": 4,
+      "locationId": 8,
+      "imageURL": "car1.webp",
+      "trim": "premium"
+    },
+    {
+      "id": 28,
+      "model": "Toyota Corolla",
+      "year": 2021,
+      "color": "Серебристый",
+      "pricePerDay": 2400,
+      "available": true,
+      "cityId": 4,
+      "locationId": 8,
+      "imageURL": "car2.webp",
+      "trim": "eco"
+    }
+  ]
   }
